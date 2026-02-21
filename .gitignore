@@ -1,4 +1,42 @@
-﻿bin/
-obj/
+﻿## Ignore Visual Studio temporary files
 .vs/
 *.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build results
+bin/
+obj/
+Debug/
+Release/
+
+## Ignore Rider / VS Code
+.idea/
+.vscode/
+
+## Ignore logs
+*.log
+
+## Ignore OS files
+.DS_Store
+Thumbs.db
+
+## Ignore publish folder
+publish/
+
+## Ignore EF Core migration snapshot backup
+*.Designer.cs
+
+## Ignore local settings
+appsettings.Development.json
+
+## Ignore dotnet watch
+*.dotnet-watch.json
+
+## Ignore NuGet packages
+*.nupkg
+packages/
+
+## Ignore Azure artifacts
+ServiceDependencies/
